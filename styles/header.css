@@ -1,0 +1,39 @@
+
+.headerMain {
+    background: var(--white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.containerMenu{
+    display:flex;
+    align-items: center;
+    gap: 1.5rem;
+    position: relative;
+}
+
+.menuToggle{
+    display: none;
+}
+
+.menuButton {
+    border: none;
+    cursor: pointer;
+    background: transparent;
+    padding: 0;
+}
+
+.menuButton img{
+    display: block;
+    width: 36px;
+    height: 24px;
+    max-width: 100%;
+}
+
+.listMenu {
+    position: absolute;
+    top: 140%;
+}
+
